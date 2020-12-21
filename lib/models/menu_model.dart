@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class NavigationModel {
-
   String title;
   IconData icon;
   Action onNavigationSelection;
@@ -11,6 +10,6 @@ class NavigationModel {
 
 List<NavigationModel> navigationItems = [
   NavigationModel(icon: Icons.home_rounded, title: "Home"),
-  NavigationModel(icon: Icons.dashboard_rounded, title: "Tasks"),
-  NavigationModel(icon: Icons.info_rounded, title: "Projects"),
+  NavigationModel(icon: Icons.check, title: "Tasks"),
+  NavigationModel(icon: Icons.person, title: "Projects"),
 ];
